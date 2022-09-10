@@ -14,10 +14,9 @@ eip4361 = ["hex", "ethers-core"]
 default = ["eip4361"]
 
 [dependencies]
-siwe = { path = "../siwe-rs" }
-# siwe = "0.4"
-iri-string = { version = "0.6.0", features = ["serde", "std"] }
 thiserror = "1.0"
+siwe = { git = "https://github.com/boneyard93501/siwe-rs.git", branch = "updates" }
+iri-string = { version = "0.6.0", features = ["serde", "std"] }
 url = "2.2"
 async-trait = "0.1"
 serde = "1.0"
