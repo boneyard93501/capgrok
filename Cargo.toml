@@ -15,12 +15,13 @@ default = ["eip4361"]
 
 [dependencies]
 siwe = { path = "../siwe-rs" }
+# siwe = "0.4"
 iri-string = { version = "0.6.0", features = ["serde", "std"] }
 thiserror = "1.0"
 url = "2.2"
 async-trait = "0.1"
 serde = "1.0"
-libipld = "0.13"
+libipld = "0.14"
 serde_with = "2.0"
 http = "0.2.5"
 hex = { version = "0.4", optional = true }
